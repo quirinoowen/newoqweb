@@ -1,0 +1,113 @@
+h1 {
+    font-size: 40px;   
+}
+
+h2 {
+    font-size: 30px
+}
+
+h3 {font-size: 20px
+}
+
+* {
+    font-family: sans-serif
+}
+
+header,section,footer,aside,nav,article{
+   display: block;
+   text-align: center
+}
+
+body {
+    background: black;
+}
+.agrupar {
+    width: 1080px;
+    border: 1px solid orange;
+    margin: 20px auto;
+    padding: 10px
+    
+}
+
+.header {
+ border: 1px solid orange;
+ padding: 20px;
+ background:orange;
+}
+
+.header h1 {
+    text-align: left;
+    padding: 20px;
+}
+
+.menu {
+    background: orangered;
+    text-align: left;
+
+}
+
+.menu li{
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    font: bold 20px sans-serif;
+    display: -webkit-inline-box;
+    
+}
+
+.section {
+    margin: 20px;
+    padding: 10px;
+    width: 600px;
+    float: left;   
+    background: orange
+}
+
+.articulo1 {
+    border: 1px solid black;
+    margin: 10px;
+    background: rgb(245, 191, 90)
+}
+.articulo2 {
+    border: 1px solid black;
+    margin: 10px;
+    background: rgb(245, 191, 90)
+}
+
+
+article footer{
+    text-align: right; 
+    margin-top: 20px
+}
+
+.aside {
+    width: 400px;
+    float: left;
+    border: 1px solid orange;
+    background: orange;
+    margin: 20px 0;
+}
+
+.pie {
+    clear: both;
+	color: orange;
+}
+
+.imart1{
+    width: 100%;
+    clip-path: circle();
+    display: block;
+    margin: 20px auto;
+
+.imart2{
+ clip-path: 
+   
+
+}
+
+.aside blockquote {
+    border: 1px solid black;
+    padding: 2px;
+    background: rgb(245, 191, 90); 
+    margin-bottom: 20px
+}
