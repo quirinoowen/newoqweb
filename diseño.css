@@ -1,6 +1,7 @@
 h1 {
-    font-size: 40px;   
-}
+    font-size: 60px; 
+    font-family: uniscpace;
+}    
 
 h2 {
     font-size: 30px
@@ -41,7 +42,7 @@ body {
 }
 
 .menu {
-    background: orangered;
+    background: rgb(243, 86, 29);
     text-align: left;
 
 }
@@ -56,7 +57,7 @@ body {
 }
 
 .section {
-    margin: 20px;
+    margin: 30px;
     padding: 10px;
     width: 600px;
     float: left;   
@@ -81,11 +82,11 @@ article footer{
 }
 
 .aside {
-    width: 400px;
+    width: 300px;
     float: left;
     border: 1px solid orange;
     background: orange;
-    margin: 20px 0;
+    margin: 40px auto;
 }
 
 .pie {
@@ -93,14 +94,12 @@ article footer{
 	color: orange;
 }
 
-.imart1{
-    width: 100%;
-    clip-path: circle();
+img {
+    width: 75%;
+    clip-path:ellipse();
     display: block;
     margin: 20px auto;
 
-.imart2{
- clip-path: 
    
 
 }
@@ -109,5 +108,6 @@ article footer{
     border: 1px solid black;
     padding: 2px;
     background: rgb(245, 191, 90); 
-    margin-bottom: 20px
+    margin-bottom: 20px auto;
 }
+
